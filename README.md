@@ -1,39 +1,55 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+>Version Control
+Available in VERSION.md file
 
-Welcome bloobsky,
+Project Info
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+Pixel Studio is a fully functional business site that enables user to browse through our offer regarding, web, design, print, programming and other IT related businesses.
+It enables user ability to login and eventually buy some services (just like any popular webstore)
 
-## Gitpod Reminders
+UX
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
 
-`python3 -m http.server`
+Testing
+Website was tested using 3 devices: Desktop PC, Tablet (Samsung a300) and smartphone (Samsung s8+ EDGE). Website was also tested using Inspect function in Google Chrome HTML and CSS Validator were also used in place.
+Testing write-up
+ 
 
-A blue button should appear to click: *Make Public*,
+Deployement
+Using Git Command Line to upload to a repository
+Type in terminal these commands:
+git init to initialize a new repository
+git add README.md to add README.md file to repository
+git commit -m "Initial commit" to add a message for first commitement
+. git remote add origin https://github.com/bloobsky/your_repository_name.git to assign repository
+git push -u origin master to upload files to the repository
 
-Another blue button should appear to click: *Open Browser*.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+For heroku development type in terminal these commands
 
-A blue button should appear to click: *Make Public*,
+heroku login "then entry your login and password"
+pip3 freeze --local > requirements.txt "these is essential for heroku to word"
+echo web: python app.py > Procfilecreate a Procfile with "web: python app.py"
+heroku git:clone -a [repository_name]
+git push heroku master
 
-Another blue button should appear to click: *Open Browser*.
+Your website is available now @ https://repository_name.herokuapp.com
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
+Project is deployed @ GitHub and Heroku
+Github was used in deployement process as it is integrated, simple and ther is no need to use additional services. It also containt Version Control and everything is uploaded using terminal commands (git)
+How it is done ?
+Open www.github.com. Login with your credentials On the Navigation Bar in the repository you would like to deploy look for 'settings' link. Scroll down the page and look for 'GitHub Pages' Under the source section select 'master branch' option Message should appear 'Your site is ready to be published at https://$YourLogin.github.io/$RepositoryName/ Your website is deployed now.
 
-## Updates Since The Instructional Video
+Technologies,Programming Languages and APIs
+HTML5, CSS, Materialize, JavaScript, jQuery, Python, Django, MongoDB, GoogleFonts API: emailJS and Google Maps API
 
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
+Features to be implemented
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+Media
+Screenshots for testing were done by using SnippingTool @ MS Windows<br>
+PixelStudio logo was created in Adobe Illustrator. <br>
+Icons used in Project are part of Materialize (www.materialize.com) <br>
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-
-Happy coding!
+Acknowledgements
+I received inspiration from CodeInstitute (www.codeinstitute.net) <br>
+Privacy Policy was generated using www.iubenda.com MongoDB Atlas - for possibility to create a free database Gitpod was used to entirely written all the code for the proposed project.
