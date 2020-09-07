@@ -4,6 +4,7 @@
 
 [ALPHA]
 
+>> 0.0.9 - Completed homepage header, footer and CSS
 >> 0.0.8 - Added main page header
 >> 0.0.7 - Added homepage content
 >> 0.0.6 - Added home app and templates
