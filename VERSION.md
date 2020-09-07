@@ -4,6 +4,7 @@
 
 [ALPHA]
 
+>> 0.0.8 - Added main page header
 >> 0.0.7 - Added homepage content
 >> 0.0.6 - Added home app and templates
 >> 0.0.5 - Added blocks to base template
