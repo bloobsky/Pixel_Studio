@@ -102,7 +102,6 @@
                 {% include 'includes/main-nav.html' %}
             </nav>
         </div>
-        {% include 'includes/carousel.html' %}
     </header>
 
     {% if messages %}
@@ -111,13 +110,13 @@
 
     {% block page_header %}
     {% endblock %}
-
+    
     {% block content %}
     {% endblock %}
 
     {% block postloadjs %}
     {% endblock %}
-   <footer class="container-fluid">
+   <footer class="container-fluid my-auto">
         {% include 'includes/footer.html' %}
    </footer>
 

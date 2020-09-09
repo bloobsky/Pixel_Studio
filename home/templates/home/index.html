@@ -11,18 +11,15 @@
 {% endblock %}
 
 {% block content %}
-    <div class="container h-100">
+<div class="container h-100 center">
         <div class="row h-100">
-            <div class="col-7 col-md-6 my-auto">
-                <h1 class="display-4 logo-font text-indigo">
-                    Range of our services are available to you!
-                </h1>
-                <div class="my-5">
-                    <h4>
-                        <a href="" class="browse-now-button btn btn-lg rounded-0 text-uppercase py-3">Browse Services Now</a>
-                    </h4>
+            <div class="col-12 my-auto mb-10 justify-content-center">
+                
+            {% include 'includes/carousel.html' %}
+    
                 </div>
             </div>
         </div>
     </div>
+    
 {% endblock %}
