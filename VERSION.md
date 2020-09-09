@@ -4,6 +4,7 @@
 
 [ALPHA]
 
+>> 0.0.12 - Added include carousel.html
 >> 0.0.11 - Added footer
 >> 0.0.10 - Added mobile header and main navbar
 >> 0.0.9 - Completed homepage header, footer and CSS

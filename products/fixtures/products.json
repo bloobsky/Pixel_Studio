@@ -1,0 +1,158 @@
+[
+  {
+    "pk": 1,
+    "model": "products.product",
+    "fields": {
+      "sku": "01",
+      "name": "Starter Website",
+      "description": "Simple Business Website with some images, contact form etc... We also provide one email address, domain registration, 24/7 helpdesk and hosting. ",
+      "price": 399,
+      "category": 1,
+      "image": "starter.jpg"
+    }
+  },
+  {
+    "pk": 2,
+    "model": "products.product",
+    "fields": {
+      "sku": "02",
+      "name": "Functional Website",
+      "description": "Functional Website for small companies. Up to 5 E-mail adressess, domain registration, 24/7 helpdesk and hosting.",
+      "price": 799,
+      "category": 1,
+      "image": "functional.jpg"
+    }
+  },
+  {
+    "pk": 3,
+    "model": "products.product",
+    "fields": {
+      "sku": "03",
+      "name": "Blog Website",
+      "description": "Fully functional blog designed just for YOU. E-mail address included, Content Management System that enables you to freerly modify your website, domain registration, 24/7 helpdesk and hosting.",
+      "price": 1099,
+      "category": 1,
+      "image": "blog.jpg"
+    }
+  },
+  {
+    "pk": 4,
+    "model": "products.product",
+    "fields": {
+      "sku": "04",
+      "name": "E-commerce",
+      "description": "Fully functional e-commerce(internet shop) crafted for your needs. Up to 10 E-mail adressess, domain registration, 24/7 helpdesk and hosting.",
+      "price": 2199,
+      "category": 1,
+      "image": "ecommerce.jpg"
+    }
+  },
+  {
+    "pk": 5,
+    "model": "products.product",
+    "fields": {
+      "sku": "05",
+      "name": "Logo & Logotypes",
+      "description": "Share your vision with us and our dedicated team will transfer you vision into a graphic logo.",
+      "price": 24.99,
+      "category": 2,
+      "image": "logos.jpg"
+    }
+  },
+  {
+    "pk": 6,
+    "model": "products.product",
+    "fields": {
+      "sku": "06",
+      "name": "Business Cards",
+      "description": "Be ready to make the most of any opportunity with a card that stands out. Explore fully customisable design templates, unique papers and more",
+      "price": 29.99,
+      "category": 2,
+      "image": "cards.jpg"
+    }
+  },
+  {
+    "pk": 7,
+    "model": "products.product",
+    "fields": {
+      "sku": "07",
+      "name": "Posters",
+      "description": "Boost the signal for your next promotion or event with vibrant banners.",
+      "price": 89.99,
+      "category": 2,
+      "image": "posters.jpg"
+    }
+  },
+  {
+    "pk": 8,
+    "model": "products.product",
+    "fields": {
+      "sku": "08",
+      "name": "Flyers & Leaflets",
+      "description": "Give your customers all the details they need to know, in a format they’ll want to keep. Explore flat and folded options, with fully customisable design templates",
+      "price": 49.99,
+      "category": 2,
+      "image": "flyers.jpg"
+    }
+  },
+  {
+    "pk": 9,
+    "model": "products.product",
+    "fields": {
+      "sku": "09",
+      "name": "Signs & Banners",
+      "description": "Get heads turning during your next sale, trade show or outdoor event with crisp, vinyl signage.",
+      "price": 99.99,
+      "category": 2,
+      "image": "signs.jpg"
+    }
+  },
+  {
+    "pk": 10,
+    "model": "products.product",
+    "fields": {
+      "sku": "10",
+      "name": "Invitations",
+      "description": "Add style and personality to your correspondence with custom invites, announcements and more.",
+      "price": 22.99,
+      "category": 2,
+      "image": "invitations.jpg"
+    }
+  },
+  {
+    "pk": 11,
+    "model": "products.product",
+    "fields": {
+      "sku": "11",
+      "name": "Labels & Stickers",
+      "description": "Turn your logo into a fresh giveaway with these kiss-cut plastic stickers.",
+      "price": 19.99,
+      "category": 2,
+      "image": "labels.jpg"
+    }
+  },
+  {
+    "pk": 12,
+    "model": "products.product",
+    "fields": {
+      "sku": "12",
+      "name": "Print",
+      "description": "We can print everything. Standard delivery time is up to 14 working days. Prices may vary and we also take 20% deposit and rest is payable after delivery.",
+      "price": 26.99,
+      "category": 3,
+      "image": "print.jpg"
+    }
+  },
+  {
+    "pk": 13,
+    "model": "products.product",
+    "fields": {
+      "sku": "13",
+      "name": "Hosting and Domains",
+      "description": "Hosting for website with domain registration and administration",
+      "price": 49.99,
+      "category": 4,
+      "image": "hosting.jpg"
+    }
+  }
+]
