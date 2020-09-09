@@ -8,9 +8,22 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+ /* footer */ 
 footer {
     color: #fff;
 }
+
+.ftr { 
+    color: #fff;
+}
+
+.ftr:hover,
+.ftr:active,
+.ftr:focus {
+    color: gray;
+    text-decoration: none;
+    }
+
 
 /* backgrounds */
 
