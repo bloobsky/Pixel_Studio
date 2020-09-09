@@ -4,6 +4,7 @@
 
 [ALPHA]
 
+>> 0.0.10 - Added mobile header and main navbar
 >> 0.0.9 - Completed homepage header, footer and CSS
 >> 0.0.8 - Added main page header
 >> 0.0.7 - Added homepage content

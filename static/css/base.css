@@ -12,6 +12,12 @@ footer {
     color: #fff;
 }
 
+/* backgrounds */
+
+.bg-indigo {
+    background-color: #083D77;
+}
+
 /* from Bulma */
 .icon {
     align-items: center;
