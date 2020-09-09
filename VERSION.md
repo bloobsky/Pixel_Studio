@@ -4,6 +4,7 @@
 
 [ALPHA]
 
+>> 0.0.14 - Added products app, models
 >> 0.0.13 - Carousel adjusted and fixtures added
 >> 0.0.12 - Added include carousel.html
 >> 0.0.11 - Added footer
