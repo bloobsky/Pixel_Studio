@@ -6,10 +6,10 @@
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="all-products-link">
                 <a href="{% url 'products' %}" class="dropdown-item">All services</a>
-                <a href="" class="dropdown-item">Web Developement</a>
-                <a href="" class="dropdown-item ">Graphic Design</a>
-                <a href="" class="dropdown-item ">Print</a>
-                <a href="" class="dropdown-item">Hosting & Domains</a>
+                <a href="{% url 'products' %}?category=webdev" class="dropdown-item">Web Developement</a>
+                <a href="{% url 'products' %}?category=graphicdesign" class="dropdown-item ">Graphic Design</a>
+                <a href="{% url 'products' %}?category=print" class="dropdown-item ">Print</a>
+                <a href="{% url 'products' %}?category=hostinganddomains" class="dropdown-item">Hosting & Domains</a>
             </div>
         </li>
 
@@ -18,10 +18,10 @@
                 Web Developement
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="web-link">
-                <a href="" class="dropdown-item">Starter</a>
-                <a href="" class="dropdown-item">Functional</a>
-                <a href="" class="dropdown-item">Blog</a>
-                <a href="" class="dropdown-item">E-commerce</a>
+                <a href="{% url 'products' %}/1" class="dropdown-item">Starter</a>
+                <a href="{% url 'products' %}/2" class="dropdown-item">Functional</a>
+                <a href="{% url 'products' %}/3" class="dropdown-item">Blog</a>
+                <a href="{% url 'products' %}/4" class="dropdown-item">E-commerce</a>
             </div>
         </li>
 
