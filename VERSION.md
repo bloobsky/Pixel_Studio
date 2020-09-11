@@ -4,6 +4,7 @@
 
 [ALPHA]
 
+>> 0.0.21 - Added All links into navbar
 >> 0.0.20 - Added 'Category filtering'
 >> 0.0.19 - Added 'search' function
 >> 0.0.18 - Added Product Details
