@@ -4,6 +4,7 @@
 
 [ALPHA]
 
+>> 0.0.19 - Added 'search' function
 >> 0.0.18 - Added Product Details
 >> 0.0.17 - Products Template added 
 >> 0.0.16 - Added products views & templates
