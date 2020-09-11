@@ -4,6 +4,7 @@
 
 [ALPHA]
 
+>> 0.0.16 - Added products views & templates
 >> 0.0.15 - Customised Admin
 >> 0.0.14 - Added products app, models
 >> 0.0.13 - Carousel adjusted and fixtures added
