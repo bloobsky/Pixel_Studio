@@ -4,6 +4,7 @@
 
 [ALPHA]
 
+>> 0.0.18 - Added Product Details
 >> 0.0.17 - Products Template added 
 >> 0.0.16 - Added products views & templates
 >> 0.0.15 - Customised Admin
