@@ -4,6 +4,7 @@
 
 [ALPHA]
 
+>> 0.0.31 - Added Quantity Update/Remove
 >> 0.0.30 - Added Quantity Input Form 
 >> 0.0.29 - Updated Shopping Bag
 >> 0.0.28 - Updated Contexts processor
