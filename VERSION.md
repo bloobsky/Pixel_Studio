@@ -4,6 +4,7 @@
 
 [ALPHA]
 
+>> 0.0.27 - Added Add To Bag Option
 >> 0.0.26 - Added Bag Contextts and Promotions 
 >> 0.0.25 - Added Purchase (shopiing bag) app, urls and views
 >> 0.0.24 - Added required jQuery for Sorting and back to the top of the page
