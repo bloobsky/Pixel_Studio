@@ -5,7 +5,7 @@
                 Services
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="all-products-link">
-                <a href="{% url 'products' %}" class="dropdown-item">All services</a>
+                <a href="{% url 'products' %}?category=webdev,graphicdesign,print,hostinganddomains" class="dropdown-item">All services</a>
                 <a href="{% url 'products' %}?category=webdev" class="dropdown-item">Web Developement</a>
                 <a href="{% url 'products' %}?category=graphicdesign" class="dropdown-item ">Graphic Design</a>
                 <a href="{% url 'products' %}?category=print" class="dropdown-item ">Print</a>
