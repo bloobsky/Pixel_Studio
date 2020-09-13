@@ -4,6 +4,7 @@
 
 [ALPHA]
 
+>> 0.0.28 - Updated Contexts processor
 >> 0.0.27 - Added Add To Bag Option
 >> 0.0.26 - Added Bag Contextts and Promotions 
 >> 0.0.25 - Added Purchase (shopiing bag) app, urls and views
