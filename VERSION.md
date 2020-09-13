@@ -4,6 +4,7 @@
 
 [ALPHA]
 
+>> 0.0.30 - Added Quantity Input Form 
 >> 0.0.29 - Updated Shopping Bag
 >> 0.0.28 - Updated Contexts processor
 >> 0.0.27 - Added Add To Bag Option
