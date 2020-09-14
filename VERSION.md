@@ -4,6 +4,7 @@
 
 [ALPHA]
 
+>> 0.0.36 - Added Chekout - view & templates
 >> 0.0.35 - Added Forms, Signals and admin
 >> 0.0.34 - Create checkout app & models
 >> 0.0.34 - Added Toast notification css
