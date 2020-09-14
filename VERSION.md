@@ -4,6 +4,7 @@
 
 [ALPHA]
 
+>> 0.0.33 - Added Toasts
 >> 0.0.32 - Added Remove, Adjust, Calcsubtotal in Bag functions
 >> 0.0.31 - Added Quantity Update/Remove
 >> 0.0.30 - Added Quantity Input Form 
