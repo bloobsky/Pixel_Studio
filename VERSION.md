@@ -4,6 +4,7 @@
 
 [ALPHA]
 
+>> 0.0.47 - Added App - Profiles
 >> 0.0.46 - Completed Webhookd Handler
 >> 0.0.45 - Added checkout form data caching in payment intent
 >> 0.0.44 - Added Class Method to webhook
