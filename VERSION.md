@@ -4,6 +4,7 @@
 
 [ALPHA]
 
+>> 0.0.48 - Added .css and .html for Profile app
 >> 0.0.47 - Added App - Profiles
 >> 0.0.46 - Completed Webhookd Handler
 >> 0.0.45 - Added checkout form data caching in payment intent
