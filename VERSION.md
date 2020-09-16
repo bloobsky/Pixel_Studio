@@ -4,6 +4,7 @@
 
 [ALPHA]
 
+>> 0.0.40 - Added Checkout Success page
 >> 0.0.39 - Added Basic Checkout/Stripe functionality
 >> 0.0.38 - Added Stripe Elements
 >> 0.0.37 - Added Chekout - view & templates
