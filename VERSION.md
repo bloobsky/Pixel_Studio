@@ -4,6 +4,7 @@
 
 [ALPHA]
 
+>> 0.0.37 - Added Stripe Elements
 >> 0.0.36 - Added Chekout - view & templates
 >> 0.0.35 - Added Forms, Signals and admin
 >> 0.0.34 - Create checkout app & models
