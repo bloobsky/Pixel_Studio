@@ -4,6 +4,7 @@
 
 [ALPHA]
 
+>> 0.0.55 - Added checkout form data caching in payment intent
 >> 0.0.44 - Added Class Method to webhook
 >> 0.0.43 - Added Webhook handler
 >> 0.0.42 - Added Loading Overlay for Checkout
