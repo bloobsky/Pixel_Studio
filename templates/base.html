@@ -129,15 +129,15 @@
     
     {% block content %}
     {% endblock %}
-
+    <footer class="container-fluid my-auto">
+        {% include 'includes/footer.html' %}
+   </footer>
     {% block postloadjs %}
         <script type="text/javascript">
             $('.toast').toast('show');
         </script>
     {% endblock %}
-   <footer class="container-fluid my-auto">
-        {% include 'includes/footer.html' %}
-   </footer>
+   
 
   </body>
 </html>
