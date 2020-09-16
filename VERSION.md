@@ -4,10 +4,11 @@
 
 [ALPHA]
 
->> 0.0.37 - Added Stripe Elements
->> 0.0.36 - Added Chekout - view & templates
->> 0.0.35 - Added Forms, Signals and admin
->> 0.0.34 - Create checkout app & models
+>> 0.0.39 - Added Basic Checkout/Stripe functionality
+>> 0.0.38 - Added Stripe Elements
+>> 0.0.37 - Added Chekout - view & templates
+>> 0.0.36 - Added Forms, Signals and admin
+>> 0.0.35 - Create checkout app & models
 >> 0.0.34 - Added Toast notification css
 >> 0.0.33 - Added Toasts
 >> 0.0.32 - Added Remove, Adjust, Calcsubtotal in Bag functions
