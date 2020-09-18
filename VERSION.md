@@ -4,7 +4,8 @@
 
 [ALPHA]
 
->> 0.0.60 - Added profile form, views and templates
+>> 0.0.52 - Added Order History and updates
+>> 0.0.51 - Added profile form, views and templates
 >> 0.0.50 - Updated profile page
 >> 0.0.49 - Updated Allauth profiles
 >> 0.0.48 - Added .css and .html for Profile app
