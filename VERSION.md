@@ -4,6 +4,7 @@
 
 [ALPHA]
 
+>> 0.0.55 - Added Forms.py in Product app 
 >> 0.0.54 - Completed confirmation email on order 
 >> 0.0.53 - Updated webhook handler for profiles
 >> 0.0.52 - Added Order History and updates
