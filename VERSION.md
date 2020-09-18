@@ -4,6 +4,7 @@
 
 [ALPHA]
 
+>> 0.0.49 - Updated Allauth profiles
 >> 0.0.48 - Added .css and .html for Profile app
 >> 0.0.47 - Added App - Profiles
 >> 0.0.46 - Completed Webhookd Handler
