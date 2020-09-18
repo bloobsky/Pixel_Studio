@@ -4,6 +4,7 @@
 
 [ALPHA]
 
+>> 0.0.54 - Completed confirmation email on order 
 >> 0.0.53 - Updated webhook handler for profiles
 >> 0.0.52 - Added Order History and updates
 >> 0.0.51 - Added profile form, views and templates
