@@ -4,6 +4,7 @@
 
 [ALPHA]
 
+>> 0.0.57 - Product admin - add product function
 >> 0.0.56 - Added Product Managmament option
 >> 0.0.55 - Added Forms.py in Product app 
 >> 0.0.54 - Completed confirmation email on order 
