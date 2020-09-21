@@ -4,6 +4,7 @@
 
 [ALPHA]
 
+>> 0.0.61 - Added Widget for Editing Pictures in products
 >> 0.0.60 - Added security for Product Add or Delete functions
 >> 0.0.59 - Added Delete Product Function
 >> 0.0.58 - Added Edit Product Function
