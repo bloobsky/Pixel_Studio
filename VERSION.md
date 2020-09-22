@@ -4,6 +4,7 @@
 
 [ALPHA]
 
+>> 0.0.66 - Installed CookieLaw to be display for first-time-users
 >> 0.0.65 - Added Policy Subpage
 >> 0.0.64 - Fixed Carousel to show 4 links instead of 3
 >> 0.0.63 - Added Social Media Links in Footer

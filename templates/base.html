@@ -1,4 +1,5 @@
 {% load static %}
+{% load cookielaw_tags %}
 
 <!doctype html>
 <html lang="en">
@@ -31,6 +32,8 @@
     {% endblock %}
 
     {% block extra_js %}
+        <!-- cookie law js-->
+        <script src="{% static 'js/cookielaw.js' %}"></script>
     {% endblock %}
     <title>PixelStudio - Web Design {% block extra_title %}{% endblock %}</title>
   </head>
@@ -106,6 +109,8 @@
         </div>
     </header>
 
+    
+
     {% if messages %}
         <div class="message-container">
             {% for message in messages %}
@@ -125,8 +130,9 @@
     {% endif %}
 
     {% block page_header %}
+        
     {% endblock %}
-    
+        {% cookielaw_banner %}
     {% block content %}
     {% endblock %}
     <footer class="container-fluid my-auto">

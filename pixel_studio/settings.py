@@ -47,6 +47,7 @@ INSTALLED_APPS = [
     'checkout',
     'profiles',
     'policy',
+    'cookielaw',
 
     # Other
     'crispy_forms',
