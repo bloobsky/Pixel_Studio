@@ -4,6 +4,7 @@
 
 [ALPHA]
 
+>> 0.0.63 - Added Social Media Links in Footer
 >> 0.0.62 - Changed Crispy form for Images Add/Edit function 
 >> 0.0.61 - Added Widget for Editing Pictures in products
 >> 0.0.60 - Added security for Product Add or Delete functions
