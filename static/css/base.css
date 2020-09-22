@@ -323,6 +323,11 @@ a.category-badge > span.badge:hover {
     height: 15px;
 }
 
+/* Google Map */
+#map {
+        height: 400px;  
+        width: 100%;  
+
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */

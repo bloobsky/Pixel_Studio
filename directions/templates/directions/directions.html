@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+{% load static %}
+
+
+{% block page_header %}
+    <div class="container header-container">
+        <div class="row">
+            <div class="col">
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block content %}
+<div class="container h-100 center">
+    <div class="row h-100">
+                <div id="map" class="col-12 my-auto mb-10 justify-content">
+                    <!-- id map required for map from JS -->
+                </div>
+            </div>
+    <div class="row h-100">
+            <div class="col-12 my-auto mb-10 justify-content">
+                <h2 class="header center black-text">How to approach our office ? </h2>
+                <h5 class="header col s12 light">85 Aughanteeroe<br>
+                Gort Road<br> 
+                Ennis<br>
+                Co. Clare<br>
+                V95 CXV2<br>
+                Ireland<br>
+                </h5>
+            </div>
+    </div>
+            
+        <br><br>
+                
+    
+</div>
+    
+{% endblock %}
+
+{% block postloadjs %}
+    {{ block.super }}
+    <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCef1gneSCdkePrWnkXROPQUynW490rnd4&callback=initMap"></script>
+    <script src="{% static 'js/map.js' %}"></script>
+{% endblock %}
