@@ -47,10 +47,10 @@ INSTALLED_APPS = [
     'checkout',
     'profiles',
     'policy',
-    'cookielaw',
-
+    'testimonials',
     # Other
     'crispy_forms',
+    'cookielaw',
 ]
 
 MIDDLEWARE = [

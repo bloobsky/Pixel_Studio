@@ -4,6 +4,7 @@
 
 [ALPHA]
 
+>> 0.0.68 - Added Testimonials Subpage
 >> 0.0.67 - Added CSS for CookieLaw
 >> 0.0.66 - Installed CookieLaw to be display for first-time-users
 >> 0.0.65 - Added Policy Subpage
