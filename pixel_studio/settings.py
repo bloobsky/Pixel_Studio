@@ -50,6 +50,7 @@ INSTALLED_APPS = [
     'testimonials',
     'directions',
     'about',
+    'contact',
     # Other
     'crispy_forms',
     'cookielaw',
@@ -106,7 +107,15 @@ AUTHENTICATION_BACKENDS = [
 
 SITE_ID = 1
 
+# Email Configuration
+EMAIL_HOST = 'smtp.gmail.com'
+DEFAULT_FROM_EMAIL = 'bloobsky@gmail.com'
+EMAIL_HOST_USER = 'bloobsky@gmail.com'
+EMAIL_HOST_PASSWORD = os.getenv('EMAIL_PASS', '')
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+
 
 ACCOUNT_AUTHENTICATION_METHOD = 'username_email'
 ACCOUNT_EMAIL_REQUIRED = True
