@@ -49,6 +49,7 @@ INSTALLED_APPS = [
     'policy',
     'testimonials',
     'directions',
+    'about',
     # Other
     'crispy_forms',
     'cookielaw',

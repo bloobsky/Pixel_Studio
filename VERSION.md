@@ -4,6 +4,7 @@
 
 [ALPHA]
 
+>> 0.0.80 - Added About Subpage
 >> 0.0.70 - Added Content into home page
 >> 0.0.69 - Added Direction website with Google Maps
 >> 0.0.68 - Added Testimonials Subpage
