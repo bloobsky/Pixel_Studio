@@ -4,6 +4,7 @@
     "model": "faq.question",
     "fields": {
       "title": "01",
+      "category": "1",
       "dateandtime": "2020-01-08T18:52:50.637635",
       "description": "Simple Business Website with some images, contact form etc... We also provide one email address, domain registration, 24/7 helpdesk and hosting. "
     }
@@ -13,6 +14,7 @@
     "model": "faq.question",
     "fields": {
       "title": "01",
+      "category": "1",
       "dateandtime": "2020-01-08T18:52:50.637635",
       "description": "Simple Business Website with some images, contact form etc... We also provide one email address, domain registration, 24/7 helpdesk and hosting. "
     }
@@ -22,6 +24,7 @@
     "model": "faq.question",
     "fields": {
       "title": "01",
+      "category": "2",
       "dateandtime": "2020-01-08T18:52:50.637635",
       "description": "Simple Business Website with some images, contact form etc... We also provide one email address, domain registration, 24/7 helpdesk and hosting. "
     }
@@ -31,6 +34,7 @@
     "model": "faq.question",
     "fields": {
       "title": "01",
+      "category": "2",
       "dateandtime": "2020-01-08T18:52:50.637635",
       "description": "Simple Business Website with some images, contact form etc... We also provide one email address, domain registration, 24/7 helpdesk and hosting. "
     }
@@ -40,6 +44,7 @@
     "model": "faq.question",
     "fields": {
       "title": "01",
+      "category": "3",
       "dateandtime": "2020-01-08T18:52:50.637635",
       "description": "Simple Business Website with some images, contact form etc... We also provide one email address, domain registration, 24/7 helpdesk and hosting. "
     }
@@ -49,6 +54,7 @@
     "model": "faq.question",
     "fields": {
       "title": "01",
+      "category": "3",
       "dateandtime": "2020-01-08T18:52:50.637635",
       "description": "Simple Business Website with some images, contact form etc... We also provide one email address, domain registration, 24/7 helpdesk and hosting. "
     }
@@ -58,6 +64,7 @@
     "model": "faq.question",
     "fields": {
       "title": "01",
+      "category": "4",
       "dateandtime": "2020-01-08T18:52:50.637635",
       "description": "Simple Business Website with some images, contact form etc... We also provide one email address, domain registration, 24/7 helpdesk and hosting. "
     }
@@ -67,6 +74,7 @@
     "model": "faq.question",
     "fields": {
       "title": "01",
+      "category": "4",
       "dateandtime": "2020-01-08T18:52:50.637635",
       "description": "Simple Business Website with some images, contact form etc... We also provide one email address, domain registration, 24/7 helpdesk and hosting. "
     }
