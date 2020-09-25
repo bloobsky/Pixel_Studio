@@ -11,7 +11,7 @@ def contact(request):
     else:
         form = ContactForm(request.POST)
         if form.is_valid():
-            email = request.POST.get('email', '')
+            # email = request.POST.get('email', '')
             subject = request.POST.get('subject', '')
             fromwho = request.POST.get('fromwho', '')
             message = request.POST.get('message', '')
@@ -22,4 +22,3 @@ def contact(request):
                 return HttpResponse('Invalid header found.')
             return render(request, 'contact/success.html')
     return render(request, "contact/contact.html", {'form': form})
-

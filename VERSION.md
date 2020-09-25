@@ -4,6 +4,7 @@
 
 [ALPHA]
 
+>> 0.0.82 - Added FAQ  App
 >> 0.0.81 - Added Contact subpage, Forms, Views and Urls
 >> 0.0.80 - Added About Subpage
 >> 0.0.70 - Added Content into home page
