@@ -1,0 +1,74 @@
+[
+  {
+    "pk": 1,
+    "model": "faq.question",
+    "fields": {
+      "title": "01",
+      "dateandtime": "2020-01-08T18:52:50.637635",
+      "description": "Simple Business Website with some images, contact form etc... We also provide one email address, domain registration, 24/7 helpdesk and hosting. "
+    }
+  },
+  {
+    "pk": 2,
+    "model": "faq.question",
+    "fields": {
+      "title": "01",
+      "dateandtime": "2020-01-08T18:52:50.637635",
+      "description": "Simple Business Website with some images, contact form etc... We also provide one email address, domain registration, 24/7 helpdesk and hosting. "
+    }
+  },
+  {
+    "pk": 3,
+    "model": "faq.question",
+    "fields": {
+      "title": "01",
+      "dateandtime": "2020-01-08T18:52:50.637635",
+      "description": "Simple Business Website with some images, contact form etc... We also provide one email address, domain registration, 24/7 helpdesk and hosting. "
+    }
+  },
+  {
+    "pk": 4,
+    "model": "faq.question",
+    "fields": {
+      "title": "01",
+      "dateandtime": "2020-01-08T18:52:50.637635",
+      "description": "Simple Business Website with some images, contact form etc... We also provide one email address, domain registration, 24/7 helpdesk and hosting. "
+    }
+  },
+  {
+    "pk": 5,
+    "model": "faq.question",
+    "fields": {
+      "title": "01",
+      "dateandtime": "2020-01-08T18:52:50.637635",
+      "description": "Simple Business Website with some images, contact form etc... We also provide one email address, domain registration, 24/7 helpdesk and hosting. "
+    }
+  },
+  {
+    "pk": 6,
+    "model": "faq.question",
+    "fields": {
+      "title": "01",
+      "dateandtime": "2020-01-08T18:52:50.637635",
+      "description": "Simple Business Website with some images, contact form etc... We also provide one email address, domain registration, 24/7 helpdesk and hosting. "
+    }
+  },
+  {
+    "pk": 7,
+    "model": "faq.question",
+    "fields": {
+      "title": "01",
+      "dateandtime": "2020-01-08T18:52:50.637635",
+      "description": "Simple Business Website with some images, contact form etc... We also provide one email address, domain registration, 24/7 helpdesk and hosting. "
+    }
+  },
+  {
+    "pk": 8,
+    "model": "faq.question",
+    "fields": {
+      "title": "01",
+      "dateandtime": "2020-01-08T18:52:50.637635",
+      "description": "Simple Business Website with some images, contact form etc... We also provide one email address, domain registration, 24/7 helpdesk and hosting. "
+    }
+  }
+]
