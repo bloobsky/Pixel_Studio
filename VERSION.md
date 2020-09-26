@@ -2,6 +2,7 @@
 <br><br>
 <strong>[BETA]</strong>
 
+>> 0.3 - Changed Email Settings in settings.py
 >> 0.2.9 - Added Cache control
 >> 0.2.8 - Fixed AWS storage in settings.py
 >> 0.2.7 - Fixed mispelling in settings.py
