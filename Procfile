@@ -1,0 +1,1 @@
+web: gunicorn pixel_studio.wsgi:application
