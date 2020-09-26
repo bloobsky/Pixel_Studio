@@ -13,7 +13,7 @@
 
 {% block content %}
 
-<div class="container">
+<div class="container bg-light">
     <div class="row">
         <div class="col-md-12 mx-auto">
             <h4>Frequently Asked Questions</h4>
@@ -29,7 +29,7 @@
   <div class="card">
 
     <!-- Card header -->
-    <div class="card-header" role="tab" id="headingOne1">
+    <div class="card-header bg-light" role="tab" id="headingOne1">
       <a data-toggle="collapse" data-parent="#accordionEx" href="#collapseOne1" aria-expanded="true"
         aria-controls="collapseOne1">
         <h5 class="mb-0">
@@ -40,14 +40,12 @@
 
     <!-- Card body -->
     <div id="collapseOne1" class="collapse show" role="tabpanel" aria-labelledby="headingOne1" data-parent="#accordionEx">
-      <div class="card-body">
+      <div class="card-body bg-light">
         {% for q in question %}
-        {% if q.category == webdev %}
-        duppaaa
-        {% endif %}
+       
         <h4>Question: {{ q.title }}</h4>
-        <h5>Category: {{ q.category }}</h5>
-        <p>{{ q.description }} </p><br>
+        <h5>Category: {{ q.category }}</h5><br>
+        <h6 class="text-black">Answer:</h6> <p>{{ q.description }} </p><br><br>
         {% endfor %}
       </div>
     </div>
