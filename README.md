@@ -57,51 +57,51 @@ HTML and CSS Validator were also used in place.<br></p>
  <img src="static/media/testing/test1.JPG"><br>
  <h5>2. Login & register</h5>
 To login first user have to be registered. After registration is easy to login by just typing your credentials and clicking sign in button<br>
- <img src="static/media/testing/test2.jpg"><br>
+ <img src="static/media/testing/test2.JPG"><br>
 After loggin user should be prompted with success message<br>
- <img src="static/media/testing/test3.jpg"><br>
+ <img src="static/media/testing/test3.JPG"><br>
  <h5>3. Using Contact Form</h5>
  To use contact form make sure all fields are correct(contain information). Otherwise form would not be send and will return error like that:<br>
-  <img src="static/media/testing/test4.jpg"><br>
+  <img src="static/media/testing/test4.JPG"><br>
 After success message will be send on e-mail and also printet in terminal<br>
- <img src="static/media/testing/test5.jpg"><br>
+ <img src="static/media/testing/test5.JPG"><br>
 <h5>4. Using Product Management Form </h5>
 You have to be logged in as a SuperUser in order to see te option in My Account<br>
 Form will not be valid if any required field is missing (name, description, price)
- <img src="static/media/testing/test6.jpg"><br>
+ <img src="static/media/testing/test6.JPG"><br>
 If form is valid service would be added into a database and admin would get a success message
-<img src="static/media/testing/test7.jpg"><br>
+<img src="static/media/testing/test7.JPG"><br>
 In Order to delete the product Admin should click small delete button<br>
-<img src="static/media/testing/test8.jpg"><br>
+<img src="static/media/testing/test8.JPG"><br>
 <strong>Please Be Careful as there is no confirmation for deleting the product</strong>
 <br>
 <h5>4. Adding Product to a shopping car</h5><br>
 In order to add desire product to shopping cart, user shall press Add SERVICE near Product<br>
-<img src="static/media/testing/test9.jpg"><br>
+<img src="static/media/testing/test9.JPG"><br>
 User would be prompted with success Message in top-right corner<br>
-<img src="static/media/testing/test10.jpg"><br>
+<img src="static/media/testing/test10.JPG"><br>
 User can click now Shopping Car to see all the products he added<br>
-<img src="static/media/testing/test11.jpg"><br>
+<img src="static/media/testing/test11.JPG"><br>
 <h5>5. Checkout</h5><br>
 In order to checkout a user have to press secure checkout button<br>
-<img src="static/media/testing/test12.jpg"><br>
+<img src="static/media/testing/test12.JPG"><br>
 Than Using the Form Provided. For purpose of testing user should type 4242 4242 4242 4242 and any future date and any cvc. <br>
 If any information are missing. form cannot be send.<br>
-<img src="static/media/testing/test13.jpg"><br> 
+<img src="static/media/testing/test13.JPG"><br> 
 If everything was correct. User should have a Success Message in top-right corner<br>
-<img src="static/media/testing/test14.jpg"><br> 
+<img src="static/media/testing/test14.JPG"><br> 
  and also a confirmation of it<br>
- <img src="static/media/testing/test15.jpg"><br> 
+ <img src="static/media/testing/test15.JPG"><br> 
 <h5>6. FAQ</h5><br>
 In order to add some more questions into a FAQ subsection. Admin has to log in into /admin.
 After Successfuly Login Admin should look for FAQ section that looks like this:<br>
-<img src="static/media/testing/test16.jpg"><br> 
+<img src="static/media/testing/test16.JPG"><br> 
  In top-right corner admin should see add question button after click a form should appear<br>
-<img src="static/media/testing/test17.jpg"><br> 
+<img src="static/media/testing/test17.JPG"><br> 
 After filling a form admin should press the "SAVE" button and the job is done.
-<img src="static/media/testing/test18.jpg"><br> 
+<img src="static/media/testing/test18.JPG"><br> 
 Final should look like:
-<img src="static/media/testing/test18.jpg"><br> 
+<img src="static/media/testing/test18.JPG"><br> 
 
 
 
@@ -117,18 +117,20 @@ Type in terminal these commands:<br>
 
 <h4>For heroku development type in terminal these commands</h4>
 
-<p><code>heroku login</code> "then entry your login and password"
-<code>pip3 freeze > requirements.txt</code> "these is essential for heroku to work"
-<code>echo web: python app.py > Procfile</code> create a Procfile with "web: python app.py"
-<code>heroku git:clone -a [repository_name]</code>
-<code>git push heroku master</code></p>
+<p><code>heroku login</code> "then entry your login and password"<br>
+<code>pip3 freeze > requirements.txt</code> "these is essential for heroku to work"<br>
+<code>echo web: python app.py > Procfile</code> create a Procfile with "web: python app.py"<br>
+<code>heroku git:clone -a [repository_name]</code><br>
+<code>git push heroku master</code></p><br>
 
 <h4>Your website is available now @ https://repository_name.herokuapp.com</h4>
 
 <h3>Project is deployed @ GitHub and Heroku</h3>
 Github was used in deployement process as it is integrated, simple and ther is no need to use additional services. It also containt Version Control and everything is uploaded using terminal commands (git)
 How it is done ?
-Open www.github.com. Login with your credentials On the Navigation Bar in the repository you would like to deploy look for 'settings' link. Scroll down the page and look for 'GitHub Pages' Under the source section select 'master branch' option Message should appear 'Your site is ready to be published at https://$YourLogin.github.io/$RepositoryName/ Your website is deployed now.
+Open www.github.com.<br> Login with your credentials On the Navigation Bar in the repository you would like to deploy look for 'settings' link.<br>
+Scroll down the page and look for 'GitHub Pages' Under the source section select 'master branch' option Message should appear 'Your site is ready to be published at https://$YourLogin.github.io/$RepositoryName/<br>
+Your website is deployed now.<br>
 
 <h3>Technologies,Programming Languages and APIs</h3>
 <ul>
@@ -144,7 +146,8 @@ Open www.github.com. Login with your credentials On the Navigation Bar in the re
 </ul>
 
 <h3>Features to be implemented</h3>
-<p>No features planned to be implemented at this stage. If you have any ideas how the project can be expanded feel free to contribute</p>
+<p>A form for managing FAQ section instead of RAW login through /admin/ subsite</p><br>
+<p>No extrafeatures planned to be implemented at this stage. If you have any ideas how the project can be expanded feel free to contribute</p>
 
 <h3>Media</h3>
 Screenshots for testing were done by using SnippingTool @ MS Windows<br>

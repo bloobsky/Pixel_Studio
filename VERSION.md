@@ -2,6 +2,7 @@
 <br><br>
 <strong>[BETA]</strong>
 
+>> 0.1.4 - Fixed Issue with Index.html not displying properly on medium and smaller devices<br>
 >> 0.1.3 - Fixed Issue with testing images not displaying properly<br>
 >> 0.1.2 - Added Testing WriteUps<br>
 >> 0.1.1 - Documentation included in Readme.MD file<br>
