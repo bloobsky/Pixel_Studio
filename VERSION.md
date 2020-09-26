@@ -1,7 +1,8 @@
->This Project uses Semantic Versioning (https://semver.org/)
-
+<h3>This Project uses Semantic Versioning (https://semver.org/)</h3>
+<br><br>
 <strong>[BETA]</strong>
 
+>> 0.1.1 - Documentation included in Readme.MD file<br>
 >> 0.1 - First Beta Version with version.md updated<br>
 
 <br><br><br>
