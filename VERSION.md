@@ -2,16 +2,17 @@
 <br><br>
 <strong>[BETA]</strong>
 
->> 0.3 - Changed Email Settings in settings.py
->> 0.2.9 - Added Cache control
->> 0.2.8 - Fixed AWS storage in settings.py
->> 0.2.7 - Fixed mispelling in settings.py
->> 0.2.6 - Added AWS Storage for settings.py
->> 0.2.5 - Fixed misspeling in secret_key
->> 0.2.4 - Connected AWS s3 services 
->> 0.2.3 - Concealed SECRET_KEY and Debug set to False in deployment
->> 0.2.2 - Fixed Database_url in settings.py
->> 0.2.1 - Added Procfile and changed setting.py for deployment
+>> 0.3.1 - Fixed Misspelling in contact form<br>
+>> 0.3 - Changed Email Settings in settings.py<br>
+>> 0.2.9 - Added Cache control<br>
+>> 0.2.8 - Fixed AWS storage in settings.py<br>
+>> 0.2.7 - Fixed mispelling in settings.py<br>
+>> 0.2.6 - Added AWS Storage for settings.py<br>
+>> 0.2.5 - Fixed misspeling in secret_key<br>
+>> 0.2.4 - Connected AWS s3 services <br>
+>> 0.2.3 - Concealed SECRET_KEY and Debug set to False in deployment<br>
+>> 0.2.2 - Fixed Database_url in settings.py<br>
+>> 0.2.1 - Added Procfile and changed setting.py for deployment<br>
 >> 0.2 -  Preparation for Deployment<br>
 >> 0.1.9 - Adjusted Colour in About Subpage<br>
 >> 0.1.8 - Change background for Products and Product Detail and FAQ<br>
