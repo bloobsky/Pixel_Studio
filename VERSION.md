@@ -2,6 +2,7 @@
 <br><br>
 <strong>[BETA]</strong>
 
+>> 0.2.7 - Fixed mispelling in settings.py
 >> 0.2.6 - Added AWS Storage for settings.py
 >> 0.2.5 - Fixed misspeling in secret_key
 >> 0.2.4 - Connected AWS s3 services 
