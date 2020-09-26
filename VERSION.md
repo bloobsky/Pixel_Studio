@@ -2,6 +2,7 @@
 <br><br>
 <strong>[BETA]</strong>
 
+>> 0.1.6 - Fixed Carousel to display properly on smaller devices<br>
 >> 0 1.5 - Change money symbol from $ to €<br>
 >> 0.1.4 - Fixed Issue with Index.html not displying properly on medium and smaller devices<br>
 >> 0.1.3 - Fixed Issue with testing images not displaying properly<br>
@@ -12,11 +13,11 @@
 <br><br><br>
 <strong>[ALPHA]</strong>
 
->> 0.0.84 - Added View and Change template for FAQ app<br>
->> 0.0.83 - Added Models, Views and template for FAQ app<br>
->> 0.0.82 - Added FAQ  App<br>
->> 0.0.81 - Added Contact subpage, Forms, Views and Urls<br>
->> 0.0.80 - Added About Subpage<br>
+>> 0.0.75 - Added View and Change template for FAQ app<br>
+>> 0.0.74 - Added Models, Views and template for FAQ app<br>
+>> 0.0.73 - Added FAQ  App<br>
+>> 0.0.72 - Added Contact subpage, Forms, Views and Urls<br>
+>> 0.0.71 - Added About Subpage<br>
 >> 0.0.70 - Added Content into home page<br>
 >> 0.0.69 - Added Direction website with Google Maps<br> 
 >> 0.0.68 - Added Testimonials Subpage<br>
