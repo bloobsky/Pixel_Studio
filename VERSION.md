@@ -2,6 +2,7 @@
 <br><br>
 <strong>[BETA]</strong>
 
+>> 0.2 -  Preparation for Deployment<br>
 >> 0.1.9 - Adjusted Colour in About Subpage<br>
 >> 0.1.8 - Change background for Products and Product Detail and FAQ<br>
 >> 0.1.7 - Change background from #fffff to match Bootstrap Colour Scheme<br>
