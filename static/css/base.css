@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    background-color: #fff;
+    background-color: #f7f7f7;
     color: #083D77;
     font-family: 'Montserrat', sans-serif;
 }
@@ -23,8 +23,6 @@ footer {
     color: gray;
     text-decoration: none;
     }
-
-/* carousel resise */
 
 /* Carousel base class */
 .carousel {
@@ -59,6 +57,7 @@ footer {
     background-color: #083D77;
 }
 
+/* other */ 
 .overlay {
     height: 100%;
     width: 100%;
@@ -207,6 +206,7 @@ a.category-badge > span.badge:hover {
     color: white;
 }
 
+/* text */
 .text-black {
     color: #000 !important;
 }
@@ -328,6 +328,7 @@ a.category-badge > span.badge:hover {
         height: 450px;  
         width: 100%;  
 }
+
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */

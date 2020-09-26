@@ -2,6 +2,7 @@
 <br><br>
 <strong>[BETA]</strong>
 
+>> 0.1.7 - Change background from #fffff to match Bootstrap Colour Scheme<br>
 >> 0.1.6 - Fixed Carousel to display properly on smaller devices<br>
 >> 0 1.5 - Change money symbol from $ to €<br>
 >> 0.1.4 - Fixed Issue with Index.html not displying properly on medium and smaller devices<br>
