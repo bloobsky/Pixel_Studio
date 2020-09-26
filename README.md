@@ -54,54 +54,54 @@ HTML and CSS Validator were also used in place.<br></p>
  
  <h5>1. SearchBar</h5>
  We gonna type flyers in search bar in order to find if any service like that is available:<br>
- <img src="/static/media/testing/test1.jpg"><br>
+ <img src="static/media/testing/test1.JPG"><br>
  <h5>2. Login & register</h5>
 To login first user have to be registered. After registration is easy to login by just typing your credentials and clicking sign in button<br>
- <img src="/static/media/testing/test2.jpg"><br>
+ <img src="static/media/testing/test2.jpg"><br>
 After loggin user should be prompted with success message<br>
- <img src="/static/media/testing/test3.jpg"><br>
+ <img src="static/media/testing/test3.jpg"><br>
  <h5>3. Using Contact Form</h5>
  To use contact form make sure all fields are correct(contain information). Otherwise form would not be send and will return error like that:<br>
-  <img src="/static/media/testing/test4.jpg"><br>
+  <img src="static/media/testing/test4.jpg"><br>
 After success message will be send on e-mail and also printet in terminal<br>
- <img src="/static/media/testing/test5.jpg"><br>
+ <img src="static/media/testing/test5.jpg"><br>
 <h5>4. Using Product Management Form </h5>
 You have to be logged in as a SuperUser in order to see te option in My Account<br>
 Form will not be valid if any required field is missing (name, description, price)
- <img src="/static/media/testing/test6.jpg"><br>
+ <img src="static/media/testing/test6.jpg"><br>
 If form is valid service would be added into a database and admin would get a success message
-<img src="/static/media/testing/test7.jpg"><br>
+<img src="static/media/testing/test7.jpg"><br>
 In Order to delete the product Admin should click small delete button<br>
-<img src="/static/media/testing/test8.jpg"><br>
+<img src="static/media/testing/test8.jpg"><br>
 <strong>Please Be Careful as there is no confirmation for deleting the product</strong>
 <br>
 <h5>4. Adding Product to a shopping car</h5><br>
 In order to add desire product to shopping cart, user shall press Add SERVICE near Product<br>
-<img src="/static/media/testing/test9.jpg"><br>
+<img src="static/media/testing/test9.jpg"><br>
 User would be prompted with success Message in top-right corner<br>
-<img src="/static/media/testing/test10.jpg"><br>
+<img src="static/media/testing/test10.jpg"><br>
 User can click now Shopping Car to see all the products he added<br>
-<img src="/static/media/testing/test11.jpg"><br>
+<img src="static/media/testing/test11.jpg"><br>
 <h5>5. Checkout</h5><br>
 In order to checkout a user have to press secure checkout button<br>
-<img src="/static/media/testing/test12.jpg"><br>
+<img src="static/media/testing/test12.jpg"><br>
 Than Using the Form Provided. For purpose of testing user should type 4242 4242 4242 4242 and any future date and any cvc. <br>
 If any information are missing. form cannot be send.<br>
-<img src="/static/media/testing/test13.jpg"><br> 
+<img src="static/media/testing/test13.jpg"><br> 
 If everything was correct. User should have a Success Message in top-right corner<br>
-<img src="/static/media/testing/test14.jpg"><br> 
+<img src="static/media/testing/test14.jpg"><br> 
  and also a confirmation of it<br>
- <img src="/static/media/testing/test15.jpg"><br> 
+ <img src="static/media/testing/test15.jpg"><br> 
 <h5>6. FAQ</h5><br>
 In order to add some more questions into a FAQ subsection. Admin has to log in into /admin.
 After Successfuly Login Admin should look for FAQ section that looks like this:<br>
-<img src="/static/media/testing/test16.jpg"><br> 
+<img src="static/media/testing/test16.jpg"><br> 
  In top-right corner admin should see add question button after click a form should appear<br>
-<img src="/static/media/testing/test17.jpg"><br> 
+<img src="static/media/testing/test17.jpg"><br> 
 After filling a form admin should press the "SAVE" button and the job is done.
-<img src="/static/media/testing/test18.jpg"><br> 
+<img src="static/media/testing/test18.jpg"><br> 
 Final should look like:
-<img src="/static/media/testing/test18.jpg"><br> 
+<img src="static/media/testing/test18.jpg"><br> 
 
 
 
