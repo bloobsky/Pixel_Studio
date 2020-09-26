@@ -101,7 +101,7 @@ After Successfuly Login Admin should look for FAQ section that looks like this:<
 After filling a form admin should press the "SAVE" button and the job is done.
 <img src="static/media/testing/test18.JPG"><br> 
 Final should look like:
-<img src="static/media/testing/test18.JPG"><br> 
+<img src="static/media/testing/test19.JPG"><br> 
 
 
 
@@ -126,8 +126,8 @@ Type in terminal these commands:<br>
 <h4>Your website is available now @ https://repository_name.herokuapp.com</h4>
 
 <h3>Project is deployed @ GitHub and Heroku</h3>
-Github was used in deployement process as it is integrated, simple and ther is no need to use additional services. It also containt Version Control and everything is uploaded using terminal commands (git)
-How it is done ?
+Github was used in deployement process as it is integrated, simple and ther is no need to use additional services. It also containt Version Control and everything is uploaded using terminal commands (git)<br>
+How it is done ?<br>
 Open www.github.com.<br> Login with your credentials On the Navigation Bar in the repository you would like to deploy look for 'settings' link.<br>
 Scroll down the page and look for 'GitHub Pages' Under the source section select 'master branch' option Message should appear 'Your site is ready to be published at https://$YourLogin.github.io/$RepositoryName/<br>
 Your website is deployed now.<br>
