@@ -2,6 +2,7 @@
 <br><br>
 <strong>[BETA]</strong>
 
+>> 0.3.2 - Changed CSS to be display properly on x-small devices
 >> 0.3.1 - Fixed Misspelling in contact form<br>
 >> 0.3 - Changed Email Settings in settings.py<br>
 >> 0.2.9 - Added Cache control<br>
