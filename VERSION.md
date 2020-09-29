@@ -2,6 +2,7 @@
 <br><br>
 <strong>[BETA]</strong>
 
+>> 0.3.4 - Fixed Bug in base.css in order to validate the file using jigsaw
 >> 0.3.3 - Shopping Bag Fixed on smaller devices
 >> 0.3.2 - Changed CSS to be display properly on x-small devices
 >> 0.3.1 - Fixed Misspelling in contact form<br>
