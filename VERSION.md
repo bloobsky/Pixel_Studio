@@ -1,5 +1,10 @@
 <h3>This Project uses Semantic Versioning (https://semver.org/)</h3>
 <br><br>
+<strong>STABLE</strong>
+
+>> 0.4.0 - First Stable version of PixelStudio realeased to public
+
+<br><br>
 <strong>[BETA]</strong>
 
 >> 0.3.7 - Fixed Footer to display properly in FAQ

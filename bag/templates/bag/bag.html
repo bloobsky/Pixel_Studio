@@ -2,7 +2,7 @@
 {% load static %}
 {% load bag_tools %}
 {% block extra_title %}
-Cart
+Shopping Cart
 {% endblock %}
 
 {% block page_header %}
@@ -27,7 +27,7 @@ Cart
         <div class="row">
             <div class="col">
                 {% if bag_items %}
-                <div class="d-block">
+                    <div class="d-block d-md-none">
                         <div class="row">
                             <div class="col">
                                 {% include "bag/bag-total.html" %}
@@ -36,7 +36,7 @@ Cart
                         <div class="row">
                             <div class="col">
                                 {% include "bag/checkout-button.html" %}
-                                <p class="text-muted mb-5">Shopping cart content just below</p>
+                                <p class="text-muted mb-5">A summary of your bag contents is below</p>
                             </div>
                         </div>
                         {% for item in bag_items %}
@@ -62,6 +62,7 @@ Cart
                                 <i class="fas fa-arrow-up text-black mx-auto my-auto"></i>
                             </a>	
                         </div>
+                    </div>
                     <div class="table-responsive rounded d-none d-md-block">
                         <table class="table table-sm table-borderless">
                             <thead class="text-black">
@@ -77,16 +78,16 @@ Cart
                             {% for item in bag_items %}
                                 <tr>
                                     <td class="p-3 w-25">
-                                        {% include 'bag/product-image.html' %}
+                                        {% include "bag/product-image.html" %}
                                     </td>
                                     <td class="py-3">
-                                        {% include 'bag/product-info.html' %}
+                                        {% include "bag/product-info.html" %}
                                     </td>
                                     <td class="py-3">
-                                        <p class="my-0">€{{ item.product.price }}</p>
+                                        <p class="my-0">${{ item.product.price }}</p>
                                     </td>
                                     <td class="py-3 w-25">
-                                       {% include 'bag/quantity-form.html' %}
+                                        {% include "bag/quantity-form.html" %}
                                     </td>
                                     <td class="py-3">
                                         <p class="my-0">${{ item.product.price | calc_subtotal:item.quantity }}</p>
@@ -95,12 +96,12 @@ Cart
                             {% endfor %}
                             <tr>
                                 <td colspan="5" class="pt-5 text-right">
-                                    {% include 'bag/bag-total.html' %}
+                                    {% include "bag/bag-total.html" %}
                                 </td>
                             </tr>
                             <tr>
                                 <td colspan="5" class="text-right">
-                                    {% include 'bag/checkout-button.html' %}
+                                    {% include "bag/checkout-button.html" %}
                                 </td>
                             </tr>
                         </table>
@@ -121,11 +122,11 @@ Cart
 
 {% block postloadjs %}
 {{ block.super }}
-    <script type="text/javascript">
-		$('.btt-link').click(function(e) {
-			window.scrollTo(0,0)
-		})
-	</script>
+<script type="text/javascript">
+    $('.btt-link').click(function(e) {
+        window.scrollTo(0,0)
+    })
+</script>
 {% include 'products/includes/quantity_input_script.html' %}
 
 <script type="text/javascript">
@@ -139,9 +140,9 @@ Cart
     $('.remove-item').click(function(e) {
         var csrfToken = "{{ csrf_token }}";
         var itemId = $(this).attr('id').split('remove_')[1];
-      //  var size = $(this).data('size');
+        var size = $(this).data('product_size');
         var url = `/bag/remove/${itemId}/`;
-        var data = {'csrfmiddlewaretoken': csrfToken};
+        var data = {'csrfmiddlewaretoken': csrfToken, 'product_size': size};
 
         $.post(url, data)
          .done(function() {
@@ -149,5 +150,4 @@ Cart
          });
     })
 </script>
-
 {% endblock %}
