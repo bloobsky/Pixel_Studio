@@ -2,6 +2,7 @@
 <br><br>
 <strong>[BETA]</strong>
 
+>> 0.3.7 - Fixed Footer to display properly in FAQ
 >> 0.3.6 - Added Sub-title for all pages
 >> 0.3.5 - Validate main page for validator.w3.org
 >> 0.3.4 - Fixed Bug in base.css in order to validate the file using jigsaw
